@@ -1,5 +1,5 @@
 # Sentiment Analysis of YouTube Comments: A Comprehensive Study of Machine Learning Models
-📌 Project Overview
+## 📌 Project Overview
 
 In this project, we perform **sentiment analysis** on YouTube comments to classify them into multiple categories.  
 The dataset consists of preprocessed comments (stopword removal, stemming, and lemmatization).  
@@ -11,7 +11,7 @@ The task is a **multi-class classification problem**, where comments are classif
 * Negative  
 * Neutral  
 
-## Installing software and files
+## 🛠️ Installing software and files
 
 We implement the project in **Python** using **Jupyter Notebook**.  
 First, download and install **Anaconda** which provides Jupyter Notebook and essential packages.
@@ -22,8 +22,21 @@ First, download and install **Anaconda** which provides Jupyter Notebook and ess
 Once Anaconda is installed, you can launch Jupyter Notebook for coding.
 
 ---
+📊 Dataset
 
-## Installing Python libraries and packages
+We used publicly available datasets containing labeled YouTube comments across categories such as:
+
+* Positive
+* Negative
+* Neutral
+
+📂 Datasets used in this project:
+
+Kaggle – https://www.kaggle.com/datasets/atifaliak/youtube-comments-dataset
+
+---
+
+## 📦 Installing Python libraries and packages
 
 We used the following Python libraries for sentiment analysis:
 
@@ -34,6 +47,7 @@ We used the following Python libraries for sentiment analysis:
 * Matplotlib / Seaborn  
 * TensorFlow / Keras (for deep learning models)
 
-📊 Results
+---
+## 📊 Results
 
 We compared multiple models and analyze the Performance metrics (Accuracy, Precision, Recall, F1-score, Confusion Matrix) are reported in the results section of the notebook.
